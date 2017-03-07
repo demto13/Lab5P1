@@ -58,7 +58,7 @@ input.text
 input.submitButton
 {
     float: right;
-    clear: left;
+    clear: both;
 }
 
 aside
