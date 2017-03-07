@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <link href="PHPIndexStyle.css" type="text/css" />
+        <link href="PHPIndexStyle.css" type="text/css" rel="stylesheet"/>
         <?php
             echo "<h1>Hello World!!!!</h1>"
         ?>
