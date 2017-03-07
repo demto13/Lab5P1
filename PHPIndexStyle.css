@@ -44,9 +44,12 @@ main.label
 
 main.text
 {
-    padding: 1px;
-    margin: 1px;
+    padding: 5px;
+    margin: 5px;
+    max-width: 50%;
+    min-width: 15%;
     float: right;
+    clear: right;
 }
 
 aside
