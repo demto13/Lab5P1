@@ -18,7 +18,7 @@
         ?>
     </header>
     <main>
-        <form action="IndexProcess.php" method="post">
+        <form action="Index.php" method="post">
             <fieldset>
                 <legend> Details </legend>
                 <label class="label 1" for="firstName">First Name</label>
@@ -31,8 +31,10 @@
     </main>
     <aside>
         <?PHP
-        $firstName = $_Post(firstName);
-        $lastName = $_Post(lastName);
+
+        $firstName = $_POST["firstName"];
+
+        $lastName = $_POST["lastName"];
 
         printDetails($firstName, $lastName);
 
