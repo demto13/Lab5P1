@@ -39,13 +39,14 @@ main
 main.label
 {
     text-align: left;
+    float: left;
 }
 
 main.text
 {
     padding: 1px;
     margin: 1px;
-
+    float: right;
 }
 
 aside
@@ -71,6 +72,8 @@ legend
 {
     text-align: center;
     color: red;
+    border: 2px solid red;
+    background-color: pink;
 }
 
 aside p
