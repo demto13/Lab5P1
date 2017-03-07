@@ -7,7 +7,8 @@ body
 
 #page
 {
-    width: 960px;
+    max-width: 960px;
+    min-width: 600px;
     height: 1000px;
     overflow: auto;
     background-color: gray;
