@@ -36,8 +36,15 @@
 
         $lastName = $_POST["lastName"];
 
-        printDetails($firstName, $lastName);
+        if($firstName != null && $lastName != null)
+        {
+            printDetails($firstName, $lastName);
+        }
 
+        else
+        {
+            echo "<p>Both fields must be filled in. Please try again!</p>";
+        }
 
         function printDetails($firstName, $lastName)
         {
