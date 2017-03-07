@@ -36,7 +36,7 @@ main
     clear: left;
 }
 
-main.label
+label.label
 {
     text-align: left;
     float: left;
@@ -51,6 +51,12 @@ input.text
     min-width: 15%;
     float: right;
     clear: right;
+}
+
+input.submitButton
+{
+    float: right;
+    clear: left;
 }
 
 aside
