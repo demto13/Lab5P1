@@ -13,6 +13,7 @@
 </head>
 <body>
     <header>
+        <link href="PHPIndexStyle.css" type="text/css" />
         <?php
             echo "<h1>Hello World!!!!</h1>"
         ?>
@@ -22,9 +23,9 @@
             <fieldset>
                 <legend> Details </legend>
                 <label class="label 1" for="firstName">First Name</label>
-                <input type="text" name="firstName" placeholder="First Name" />
+                <input class="text 1" type="text" name="firstName" placeholder="First Name" />
                 <label class="label 2" for="lastName">Last Name</label>
-                <input type="text" name="lastName" placeholder="Last Name" />
+                <input class="text 2" type="text" name="lastName" placeholder="Last Name" />
                 <input class="submitButton" type="submit" value="submit" />
             </fieldset>
         </form>
@@ -48,7 +49,7 @@
 
         function printDetails($firstName, $lastName)
         {
-            echo"<p>Hello {$firstName} {$lastName} how are you today?</p>";
+            echo"<p class='errorMessage'>Hello {$firstName} {$lastName} how are you today?</p>";
         }
         ?>
     </aside>
