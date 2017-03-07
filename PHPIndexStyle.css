@@ -1,9 +1,16 @@
 body
 {
     width: 90%;
-    height: 1000px;
     text-align: center;
     overflow: auto;
+}
+
+#page
+{
+    width: 960px;
+    height: 1000px;
+    overflow: auto;
+    background-color: gray;
 }
 
 header

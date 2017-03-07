@@ -12,6 +12,7 @@
     <title>PHPTry</title>
 </head>
 <body>
+    <div id="page">
     <header>
         <link href="PHPIndexStyle.css" type="text/css" rel="stylesheet"/>
         <?php
@@ -56,4 +57,5 @@
     <footer>
         <p>CopyRight</p>
     </footer>
+    </div>
 </body>
