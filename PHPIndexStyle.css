@@ -21,7 +21,7 @@ main
     background-color: orange;
     width: 56%;
     height: 60%;
-    padding: 0%;
+    padding: 0;
     margin: 2%;
     float: left;
     clear: left;
@@ -45,7 +45,7 @@ aside
     color:aqua;
     width: 36%;
     height: 60%;
-    padding: 0%;
+    padding: 0;
     margin: 2%;
     float: right;
     clear: right;
