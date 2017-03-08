@@ -74,6 +74,11 @@ aside
     overflow: auto;
 }
 
+#errorMessage
+{
+    color: red;
+}
+
 fieldset
 {
     width: 80%;
