@@ -59,7 +59,7 @@
                     echo "<h1>Welcome My Lord!</h1>";
                     break;
                 default:
-                    echo"<p id='errorMessage'>Hello {$firstName} {$lastName} how are you today?</p>";
+                    echo"<p style='color: red'>Hello {$firstName} {$lastName} how are you today?</p>";
                     break;
             }
 
