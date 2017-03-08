@@ -97,13 +97,13 @@
             switch($wantedGoods)
             {
                 case "specs":
-                    echo"<p>You need to be 16+</p>";
+                    echo"<p>You need to be 16+ to have {$wantedGoods}</p>";
                     break;
                 case "mugs":
-                    echo"<p>You need to be 18+</p>";
+                    echo"<p>You need to be 18+ to have {$wantedGoods}</p>";
                     break;
                 case "sausages":
-                    echo"<p>You need to be 21+</p>";
+                    echo"<p>You need to be 21+ to have {$wantedGoods}</p>";
                     break;
             }
 
