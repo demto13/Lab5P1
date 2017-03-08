@@ -30,7 +30,7 @@ main
 
     width: 56%;
     height: 60%;
-    padding: 0;
+    padding: 5px;
     margin: 2%;
     float: left;
     clear: left;
@@ -42,7 +42,7 @@ label.label
     text-align: center;
     margin: 0 auto;
     float: left;
-    clear: both;
+    clear: left;
     max-width: 50%;
     min-width: 15%;
 }
@@ -54,23 +54,27 @@ input.text
     max-width: 50%;
     min-width: 15%;
     float: right;
-    clear: both;
+    clear: right;
 }
 
 input.drop
 {
     padding: 5px;
     margin: 5px;
-    max-width: 50%;
+    max-width: 60%;
     min-width: 15%;
     float: right;
-    clear: both;
+    clear: left;
 }
 
 input.submitButton
 {
     float: right;
     clear: both;
+    background-color: aqua;
+    color: purple;
+    padding: 2px;
+    margin: 5px;
 }
 
 aside
@@ -103,6 +107,7 @@ legend
     background-color: pink;
     padding: 5px;
     border-radius: 20px;
+    width: 10%;
 }
 
 aside p
