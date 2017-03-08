@@ -91,7 +91,7 @@ fieldset
 {
     width: 80%;
     text-align: center;
-    margin: 0 auto;
+    margin: 10px auto;
     overflow: auto;
 }
 
@@ -101,6 +101,8 @@ legend
     color: red;
     border: 2px solid red;
     background-color: pink;
+    padding: 5px;
+    border-radius: 20px;
 }
 
 aside p
