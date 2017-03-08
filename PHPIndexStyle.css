@@ -63,7 +63,7 @@ input.drop
     max-width: 50%;
     min-width: 15%;
     float: right;
-    clear: right;
+    clear: both;
 }
 
 input.submitButton
