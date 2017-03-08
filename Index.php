@@ -45,12 +45,24 @@
 
         else
         {
-            echo "<p>Both fields must be filled in. Please try again!</p>";
+           echo "<p>Both fields must be filled in. Please try again!</p>";
         }
 
         function printDetails($firstName, $lastName)
         {
-            echo"<p class='errorMessage'>Hello {$firstName} {$lastName} how are you today?</p>";
+            switch($firstName)
+            {
+                case "Szilvia":
+                    echo "<h1>Welcome Princess:-):-):-):-) </h1>";
+                    break;
+                case "Tamas":
+                    echo "<h1>Welcome My Lord!</h1>";
+                    break;
+                default:
+                    echo"<p class='errorMessage'>Hello {$firstName} {$lastName} how are you today?</p>";
+                    break;
+            }
+
         }
         ?>
     </aside>
