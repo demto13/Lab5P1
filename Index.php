@@ -50,9 +50,11 @@
 
         $wantedGoods = $_POST["wantedGoods"];
 
+        $provisionedGoods = array("specs", "mugs", "sasusagerolls");
+
         if($firstName != null && $lastName != null)
         {
-            printDetails($firstName, $lastName, $age, $wantedGoods);
+            printDetails($firstName, $lastName, $age, $wantedGoods, $provisionedGoods);
         }
 
         else
@@ -60,7 +62,7 @@
            echo "<p>Both fields must be filled in. Please try again!</p>";
         }
 
-        function printDetails($firstName, $lastName, $age, $wantedGoods)
+        function printDetails($firstName, $lastName, $age, $wantedGoods, $provisionedGoods)
         {
             switch($firstName)
             {
@@ -103,6 +105,11 @@
                 case "sausages":
                     echo"<p>You need to be 21+</p>";
                     break;
+            }
+
+            foreach($provisionedGoods as $individualGood)
+            {
+                print"<p>$individualGood</p>";
             }
         }
         ?>
