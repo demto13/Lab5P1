@@ -109,7 +109,7 @@
 
             foreach($provisionedGoods as $individualGood)
             {
-                print"<p>$individualGood</p>";
+                echo"<p>$individualGood</p>";
             }
         }
         ?>
