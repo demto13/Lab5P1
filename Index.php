@@ -28,7 +28,7 @@
                 <label class="label 2" for="lastName">Last Name</label>
                 <input class="text 2" type="text" name="lastName" placeholder="Last Name" />
                 <label class="label 3" for="age">Age</label>
-                <input type="text" name="age" placeholder="Age">
+                <input class="text 3" type="text" name="age" placeholder="Age">
                 <input class="submitButton" type="submit" value="submit" />
             </fieldset>
         </form>
