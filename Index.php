@@ -111,6 +111,38 @@
             {
                 echo"<p>$individualGood</p>";
             }
+
+            for($day = 1; $day <=30; $day++)
+            {
+                if($day%2==0 && $day%3==0 && $day%4==0)
+                {
+                    echo"<p>All goods are available!</p>";
+                }
+                if($day%2==0 && $day%3==0)
+                {
+                    echo"<p>Specs and mugs are available!</p>";
+                }
+                if($day%3==0 && $day%4==0)
+                {
+                    echo"<p>Mugs and Sausages are available today</p>";
+                }
+                if($day%2==0 && $day%4==0)
+                {
+                    echo"<p>Specs and sausages are available today!</p>";
+                }
+                if($day%2==0)
+                {
+                    echo"<p>Specs are available today!</p>";
+                }
+                elseif($day%3==0)
+                {
+                    echo"<p>Mugs are available today!</p>";
+                }
+                elseif($day%4==0)
+                {
+                    echo"<p>Sausages are available today!</p>";
+                }
+            }
         }
         ?>
     </aside>
