@@ -112,7 +112,7 @@
                 echo"<p>$individualGood</p>";
             }
 
-            for($day = 1; $day <=30; $day++)
+            /*for($day = 1; $day <=30; $day++)
             {
                 if($day%2==0 && $day%3==0 && $day%4==0)
                 {
@@ -142,6 +142,31 @@
                 {
                     echo"<p>Sausages are available today!</p>";
                 }
+            }*/
+
+            $specStockOriginal = 7;
+            $mugStockOriginal = 7;
+            $sausageStockOriginal = 7;
+
+            while($specStockOriginal != 0 && $mugStockOriginal != 0 && $sausageStockOriginal != 0)
+            {
+                $product2Display = productSelector();
+
+                if($product2Display != 0)
+                {
+                    echo "<p>Today you have {$product2Display} on offer </p>";
+                }
+                else
+                {
+                    continue;
+                }
+            }
+
+            function productSelector()
+            {
+                $goods = array("specs", "mugs", "sasusagerolls");
+
+                return $goods[rand(1, 3)];
             }
         }
         ?>
