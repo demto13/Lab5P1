@@ -29,6 +29,12 @@
                 <input class="text 2" type="text" name="lastName" placeholder="Last Name" />
                 <label class="label 3" for="age">Age</label>
                 <input class="text 3" type="text" name="age" placeholder="Age">
+                <label class="label 4" for="wantedGoods">Wanted Goods</label>
+                <select class="text 4" name="wantedGoods">
+                    <option value="specs">Specs</option>
+                    <option value="mugs">Mugs</option>
+                    <option value="Sausages">Sausages</option>
+                </select>
                 <input class="submitButton" type="submit" value="submit" />
             </fieldset>
         </form>
@@ -42,9 +48,11 @@
 
         $age = $_POST["age"];
 
+        $wantedGoods = $_POST["wantedGoods"];
+
         if($firstName != null && $lastName != null)
         {
-            printDetails($firstName, $lastName, $age);
+            printDetails($firstName, $lastName, $age, $wantedGoods);
         }
 
         else
@@ -52,7 +60,7 @@
            echo "<p>Both fields must be filled in. Please try again!</p>";
         }
 
-        function printDetails($firstName, $lastName, $age)
+        function printDetails($firstName, $lastName, $age, $wantedGoods)
         {
             switch($firstName)
             {
@@ -84,6 +92,18 @@
                 echo "<p> You are just too young Buddy!";
             }
 
+            switch($wantedGoods)
+            {
+                case "specs":
+                    echo"<p>You need to be 16+</p>";
+                    break;
+                case "mugs":
+                    echo"<p>You need to be 18+</p>";
+                    break;
+                case "sausages":
+                    echo"<p>You need to be 21+</p>";
+                    break;
+            }
         }
         ?>
     </aside>
