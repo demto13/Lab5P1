@@ -42,7 +42,7 @@ label.label
     text-align: center;
     margin: 0 auto;
     float: left;
-    clear: left;
+    clear: both;
     max-width: 50%;
     min-width: 15%;
 }
