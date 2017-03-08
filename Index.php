@@ -30,7 +30,7 @@
                 <label class="label 3" for="age">Age</label>
                 <input class="text 3" type="text" name="age" placeholder="Age">
                 <label class="label 4" for="wantedGoods">Wanted Goods</label>
-                <select class="text 4" name="wantedGoods">
+                <select class="drop 1" name="wantedGoods">
                     <option value="specs">Specs</option>
                     <option value="mugs">Mugs</option>
                     <option value="Sausages">Sausages</option>

@@ -55,6 +55,16 @@ input.text
     clear: right;
 }
 
+input.drop
+{
+    padding: 5px;
+    margin: 5px;
+    max-width: 50%;
+    min-width: 15%;
+    float: right;
+    clear: right;
+}
+
 input.submitButton
 {
     float: right;
