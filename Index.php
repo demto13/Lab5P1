@@ -107,6 +107,8 @@
                     break;
             }
 
+            echo"<h2>Products</h2>";
+
             foreach($provisionedGoods as $individualGood)
             {
                 echo"<p>$individualGood</p>";
@@ -154,8 +156,21 @@
 
                 if($product2Display != 0)
                 {
+                    if($product2Display == "specs")
+                    {
+                        $specStockOriginal--;
+                    }
+                    elseif($product2Display == "mugs")
+                    {
+                        $mugStockOriginal--;
+                    }
+                    elseif($product2Display == "sausagerolls")
+                    {
+                        $sausageStockOriginal--;
+                    }
                     echo "<p>Today you have {$product2Display} on offer </p>";
                 }
+
                 else
                 {
                     continue;
