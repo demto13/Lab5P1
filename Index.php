@@ -116,7 +116,7 @@
             {
                 if($day%2==0 && $day%3==0 && $day%4==0)
                 {
-                    echo"<p>All goods are available!</p>";
+                    echo"<p>day {$day} - All goods are available!</p>";
                 }
                 if($day%2==0 && $day%3==0)
                 {
