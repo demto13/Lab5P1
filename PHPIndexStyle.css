@@ -43,6 +43,7 @@ label.label
     clear: both;
     max-width: 50%;
     min-width: 15%;
+    background-color: purple;
 }
 
 input.text
@@ -53,6 +54,7 @@ input.text
     min-width: 15%;
     float: right;
     clear: right;
+    background-color: yellow;
 }
 
 input.drop
@@ -63,6 +65,7 @@ input.drop
     min-width: 15%;
     float: right;
     clear: right;
+    background-color: green;
 }
 
 input.submitButton
