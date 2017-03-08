@@ -57,7 +57,7 @@ input.text
     clear: right;
 }
 
-input.drop
+select.drop
 {
     padding: 5px;
     margin: 5px;
