@@ -27,6 +27,8 @@
                 <input class="text 1" type="text" name="firstName" placeholder="First Name" />
                 <label class="label 2" for="lastName">Last Name</label>
                 <input class="text 2" type="text" name="lastName" placeholder="Last Name" />
+                <label class="label 3" for="age">Age</label>
+                <input type="text" name="age" placeholder="Age">
                 <input class="submitButton" type="submit" value="submit" />
             </fieldset>
         </form>
@@ -38,9 +40,11 @@
 
         $lastName = $_POST["lastName"];
 
+        $age = $_POST["age"];
+
         if($firstName != null && $lastName != null)
         {
-            printDetails($firstName, $lastName);
+            printDetails($firstName, $lastName, $age);
         }
 
         else
@@ -48,7 +52,7 @@
            echo "<p>Both fields must be filled in. Please try again!</p>";
         }
 
-        function printDetails($firstName, $lastName)
+        function printDetails($firstName, $lastName, $age)
         {
             switch($firstName)
             {
@@ -61,6 +65,19 @@
                 default:
                     echo"<p style='color: red'>Hello {$firstName} {$lastName} how are you today?</p>";
                     break;
+            }
+
+            if($age >= 16)
+            {
+                echo "<p>You can have specs!</p>";
+            }
+            elseif($age >= 18)
+            {
+                echo "<p>You can have specs and mugs!</p>";
+            }
+            else
+            {
+                echo "<p>You can have specs, mugs and sausage rolls!!!!</p>";
             }
 
         }
