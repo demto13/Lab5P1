@@ -33,7 +33,7 @@
                 <select class="drop 1" name="wantedGoods">
                     <option value="specs">Specs</option>
                     <option value="mugs">Mugs</option>
-                    <option value="Sausages">Sausages</option>
+                    <option value="sausages">Sausages</option>
                 </select>
                 <input class="submitButton" type="submit" value="submit" />
             </fieldset>
