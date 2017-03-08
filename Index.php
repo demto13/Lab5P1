@@ -67,17 +67,21 @@
                     break;
             }
 
-            if($age >= 16)
+            if($age >= 21)
             {
-                echo "<p>You can have specs!!!</p>";
+                echo "<p>You can have specs, mugs and sausage rolls!!!</p>";
             }
             elseif($age >= 18)
             {
-                echo "<p>You can have specs and mugs!</p>";
+                echo "<p>You can have specs and mugs!!!</p>";
+            }
+            elseif($age >= 16)
+            {
+                echo "<p>You can have specs!!!</p>";
             }
             else
             {
-                echo "<p>You can have specs, mugs and sausage rolls!!!!</p>";
+                echo "<p> You are just too young Buddy!";
             }
 
         }
