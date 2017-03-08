@@ -39,7 +39,8 @@ main
 
 label.label
 {
-    text-align: left;
+    text-align: center;
+    margin: 0 auto;
     float: left;
     clear: both;
     max-width: 50%;
@@ -106,7 +107,7 @@ aside p
 {
     max-width: 100%;
     min-width: 20%;
-    color: chartreuse;
+    color: dodgerblue;
     text-decoration: underline;
     font-style: italic;
     font-family: Verdana Arial sans-serif;
