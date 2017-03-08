@@ -67,7 +67,7 @@
             switch($firstName)
             {
                 case "Szilvia":
-                    echo "<h1>Welcome Princess:-):-):-):-) </h1>";
+                    echo "<h1>Welcome Dino:-):-):-):-) </h1>";
                     break;
                 case "Tamas":
                     echo "<h1>Welcome My Lord!</h1>";
@@ -181,7 +181,7 @@
             {
                 $goods = array("specs", "mugs", "sasusagerolls");
 
-                return $goods[rand(1, 3)];
+                return $goods[rand(0, 2)];
             }
         }
         ?>
