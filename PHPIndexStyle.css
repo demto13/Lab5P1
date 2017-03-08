@@ -78,6 +78,7 @@ fieldset
 {
     width: 80%;
     text-align: center;
+    margin: 0 auto;
 }
 
 legend
@@ -96,7 +97,10 @@ aside p
     text-decoration: underline;
     font-style: italic;
     font-family: Verdana Arial sans-serif;
+    max-font-size: 100%;
+    min-font-size: 20%;
 }
+
 
 footer
 {
